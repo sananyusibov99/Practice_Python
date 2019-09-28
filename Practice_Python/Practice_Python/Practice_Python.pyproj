@@ -24,6 +24,9 @@
     <Compile Include="Derivative.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Evaluation_of_pi.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Factorial.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
