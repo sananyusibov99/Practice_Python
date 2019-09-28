@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1db64a64-420b-4800-99e2-ae91b2366e44</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Biochemical_reaction.py</StartupFile>
+    <StartupFile>T5-Biochemical_reaction.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,19 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Biochemical_reaction.py">
+    <Compile Include="T5-Biochemical_reaction.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Derivative.py">
+    <Compile Include="T2-Derivative.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Electrical_circuit.py">
+    <Compile Include="T4-Electrical_circuit.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Evaluation_of_pi.py">
+    <Compile Include="T3-Evaluation_of_pi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Factorial.py" />
+    <Compile Include="T1-Factorial.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
