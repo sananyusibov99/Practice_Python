@@ -1,3 +1,4 @@
+#Factorial
 #Write a function that takes an integer as input and that returns
 #its factorial (n!). Try two ways to implement these functions:
 

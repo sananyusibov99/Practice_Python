@@ -1,3 +1,4 @@
+#Evaluation of pi
 #In this exercise we will write a script to estimate π by computing the area of the unitary circle. 
 #Two approaches will be compared.
 
@@ -28,7 +29,7 @@ for count in range(0,10000):
   d=math.hypot(random.random(), random.random())
   if d<1:
     count_inside+=1
-print(4.0*count_inside/count)
+print(f"Area is {4.0*count_inside/count}")
 
 
 #evaluation of pi using trapezoid
